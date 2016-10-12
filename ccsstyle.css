@@ -1,12 +1,16 @@
 h1 {
-color: red;
-font-size: 35pt;
+  color: red;
+  font-size: 35pt;
 }
 p {
-color: blue;
-font-family: "Comic Sans MS";
+  color: blue;
+  font-family: "Comic Sans MS";
+}
+#testpara {
+  font-family: helvetica, sans-serif;
+  font-size: 20pt;
 }
 .hidden-links {
-text-decoration: none;
-color: #536482;
+  text-decoration: none;
+  color: #536482;
 }
