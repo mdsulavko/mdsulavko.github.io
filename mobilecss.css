@@ -1,9 +1,11 @@
 body {
   background-color: green;
 }
-div {
-  font-size: 50pt;
+html { 
+	padding-left: 0%;
+	padding-right: 0%;
 }
-h1 {
-  color: yellow;
+.ability {
+	padding-right: 5%;
+	padding-left: 5%:
 }
