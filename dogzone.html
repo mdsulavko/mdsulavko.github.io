@@ -9,13 +9,13 @@
   <style>
   </style>
   <script>
-	images = ["dog(1).jpg", "dog(2).jpg", "dog(3).jpg", "dog(4).jpg", "dog(5).jpg", "dog(6).jpg", "dog(7).jpg", "dog(8).jpg", "dog(9).jpg", "dog(10).jpg", "dog(11).jpg", "dog(12).jpg", "dog(13).jpg", "dog(14).jpg", "dog(15).jpg"];
+	images = ["https://cloud.githubusercontent.com/assets/22753849/21283946/54b6c37c-c3db-11e6-996b-2d049f3ad8a5.jpg", "https://cloud.githubusercontent.com/assets/22753849/21283944/54b170de-c3db-11e6-826d-470ac9818f4a.jpg", "https://cloud.githubusercontent.com/assets/22753849/21283945/54b1e78a-c3db-11e6-87b0-b88db6904e37.jpg", "https://cloud.githubusercontent.com/assets/22753849/21283941/54a9faa2-c3db-11e6-9c20-7ebf841d21cf.jpg", "https://cloud.githubusercontent.com/assets/22753849/21283943/54ab839a-c3db-11e6-8b92-16cd7a9a4ce8.jpg", "https://cloud.githubusercontent.com/assets/22753849/21283940/54a969b6-c3db-11e6-9c94-8fbc8de947c8.jpg", "https://cloud.githubusercontent.com/assets/22753849/21283939/54a8b6c4-c3db-11e6-8a1b-53e3d9c9ba67.jpg", "https://cloud.githubusercontent.com/assets/22753849/21283942/54ab2742-c3db-11e6-9e9f-08027d5e9206.jpg", "https://cloud.githubusercontent.com/assets/22753849/21283938/54a726a6-c3db-11e6-9d57-35802443d282.jpg", "https://cloud.githubusercontent.com/assets/22753849/21283937/549e1278-c3db-11e6-9c40-42ac8a9d10ac.jpg", "https://cloud.githubusercontent.com/assets/22753849/21283932/549b97fa-c3db-11e6-8cfb-39a6259bcb33.jpg", "https://cloud.githubusercontent.com/assets/22753849/21283936/549d7066-c3db-11e6-903b-8c8f9deb1531.jpg", "https://cloud.githubusercontent.com/assets/22753849/21283935/549ce86c-c3db-11e6-8ac1-1046099006f1.jpg", "https://cloud.githubusercontent.com/assets/22753849/21283934/549cb284-c3db-11e6-90a8-f4535172f590.jpg", "https://cloud.githubusercontent.com/assets/22753849/21283933/549c5078-c3db-11e6-98bb-b276b99bcfe7.jpg"];
 	function initialize() {
 		flip = document.getElementById("flip");
 		flipPage();
 	}
 	function flipPage() { 
-		rand  = Math.floor((Math.random() * 15) + 1);
+		rand  = Math.floor((Math.random() * 15));
 		flip.src = "images/" + images[rand];
 	}
   
