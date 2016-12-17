@@ -8,10 +8,21 @@
     <title> ABRA ZONE </title>
   <style>
   </style>
+  <script>
+	images = ["dog(1).jpg", "dog(2).jpg", "dog(3).jpg", "dog(4).jpg", "dog(5).jpg", "dog(6).jpg", "dog(7).jpg", "dog(8).jpg", "dog(9).jpg", "dog(10).jpg", "dog(11).jpg", "dog(12).jpg", "dog(13).jpg", "dog(14).jpg", "dog(15).jpg"];
+	function initialize() {
+		flip = document.getElementById("flip");
+		flipPage();
+	}
+	function flipPage() { 
+		rand  = Math.floor((Math.random() * 15) + 1);
+		flip.src = "images/" + images[rand];
+	}
+  
+  </script>
   </head>
-  <body>
+  <body onload  = "initialize()">
 		<div id = "topB"> <br/> <a href = "index.html"> <h1> Me </h1> </a> <a href = "dogzone.html">  <h1> Dog Zone </h1> </a> </div>
-		
-    
+			<img id = "flip" onclick = "flipPage()"/>
   </body>
 </html>
