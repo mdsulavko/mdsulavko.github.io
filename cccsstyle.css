@@ -3,7 +3,7 @@ a{
 	display: inline;
 }
 div h1 {
-	color : #3399ff;
+	color : #ff66ff;
 	display: inline;
 	font-size: 36pt;
 	font-family: 'Helvetica', 'Arial', sans-serif;
@@ -15,14 +15,22 @@ div h1 {
 div h1:hover {
     opacity: 1.0;
 }
+#flip {
+	position: absolute;
+    left: 50%;
+	top : 50%;
+	transform: translate(-50%, -50%);
+	height : 50%;
+	width : auto;
+}
 #topB{
-	background-color : #004080;
+	background-color : #990073;
 	text-align: center;
 	border: 3px solid rgb(54, 54, 46);
 }
 html {
-	background-image:url('images/background.jpeg');
-	background-repeat: no-repeat;
+	background-image:url('images/ppbackground.jpg');
+	background-repeat: repeat;
     background-position: right top;
 	background-size: cover; 
 	padding-right : 20%;
